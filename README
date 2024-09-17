@@ -8,5 +8,4 @@ Apache: This is the web server software that sits on top of the Linux operating 
 
 MySQL: This is a relational database management system (RDBMS) used for storing and managing the dynamic content of websites and applications. MySQL allows you to create databases, store data in tables, and retrieve information based on user interaction or application needs.
 
-PHP (or Perl/Python): This is the programming language used to develop the dynamic functionality of web applications. This language processes user input, interact with the MySQL database, and generate tailored web pages for users.
-
+PHP (or Perl/Python): Thi
