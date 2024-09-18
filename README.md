@@ -102,3 +102,7 @@ Install PHP and the necessary extensions. Run this cmd:
 ```sudo apt install php libapache2-mod-php php-mysql php-cli```
 
 ![php install](images/php%20install.png)
+
+Confirm PHP installation; Check version by running:
+
+```php -v```
