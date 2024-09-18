@@ -47,9 +47,7 @@ Open your terminal (I used windows powershell for this project) and run this:
 **Installing Apache**
 Apache is a webserver which will be used to host our application
 
-To install Apache, we use the Terminal
-
-Run 
+To install Apache, we use the Terminal and run:
 
 ```sudo apt update```
 
@@ -65,7 +63,11 @@ Run
  To verify that Apache is running as a server  in our OS, we use the following command:
 
  ```sudo systemctl status apache2```
+ 
 
+ Open your EC2 instance on the Console, copy the public IP address and paste to your browser
+
+ ![apache page](images/apache%20page.png)
  
 
 
