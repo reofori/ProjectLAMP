@@ -117,4 +117,20 @@ Create a directory for your website
 
 ```sudo mkdir /var/www/projectlamp```
 
+To assign ownership to the current system user, run this cmd:
+
 ```sudo chown -R $USER:$USER /var/www/projectlamp```
+
+Create a configuration file for your website
+
+```sudo nano /etc/apache2/sites-available/projectlamp.conf```
+
+Add your configuration, then enable the new site and reload Apache:
+
+```sudo a2ensite projectlamp```
+
+```sudo a2dissite 000-default```
+
+```sudo systemctl reload apache2```
+
+![terminal 4](images/terminal%204.png)
