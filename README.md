@@ -43,6 +43,25 @@ Open your terminal (I used windows powershell for this project) and run this:
 
 ![terminal 1](images/terminal%201.png)
 
+## STEP 1 
+**Installing Apache**
+Apache is a webserver which will be used to host our application
+To install Apache, we use the Terminal
+. Run 
 
+```sudo apt update```
+![terminal 2](images/terminal%202.png)
+
+ Then, install Apache with:
+
+ ```sudo apt install apache2```
+![terminal 3](images/terminal%203.png)
+ 
+
+ To verify that Apache is running as a server  in our OS, we use the following command:
+
+ ```sudo systemctl status apache2```
+
+ 
 
 
