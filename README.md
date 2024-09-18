@@ -91,3 +91,14 @@ Use a Alter user command to set password for root user
 To secure your MySQL installation:
 
 ```sudo mysql_secure_installation```
+
+
+## STEP 3
+**Installing PHP**
+Apache2 server has been installed to serve my content and MySQLserver installed to store and manage my data. PHP is the component of my setup that will process code to display dynamic content to the final user.
+
+Install PHP and the necessary extensions. Run this cmd:
+
+```sudo apt install php libapache2-mod-php php-mysql php-cli```
+
+![php install](Images/php%20install.png)
