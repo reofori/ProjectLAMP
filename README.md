@@ -138,3 +138,24 @@ Add your configuration, then enable the new site and reload Apache:
 Create an index.html file to test your website:
 
 ```sudo bash -c 'echo "Hello LAMP from hostname $(hostname) with public IP $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4)" > /var/www/projectlamp/index.html'```
+
+Visit http://your-ec2-public-ip in your browser to see your webpage.
+
+![apache server](images/apache%20server.png)
+
+## STEP 5
+**Enabling PHP on the website**
+
+With the default DirectoryIndex settings on Apache, a file named index.html will always take precedence over an index.php file. We need to change this behaviour  by doing the following:
+
+```sudo vim /etc/apache2/mods-enabled/dir.conf```
+
+we use the above command to edit and change the /etc/apache2/mods-enabled/dir.conf file and modify the order in which the index.php file is listed within the DirectoryIndex directive
+
+
+Change the existing one to the below.
+```
+<IfModule mod_dir.c>
+    DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
+```
