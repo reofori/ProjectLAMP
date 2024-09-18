@@ -22,6 +22,8 @@ Choose the t2.micro instance type.
 Configure security groups to allow necessary inbound traffic (SSH, HTTP).
 Create or select an existing key pair and download the private key (.pem file).
 
+![key pair](images/key%20pair.png)
+
 Navigate to the directory containing your downloaded key pair:
 
 ```cd Downloads```
