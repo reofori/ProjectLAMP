@@ -18,9 +18,14 @@ Create an AWS account or log in to your existing one.
 
 Navigate to EC2 in the AWS Management Console.
 ![ec2](images/ec2.png)
+
 Launch a new EC2 instance using the Ubuntu 24.04 LTS image.
 Choose the t2.micro instance type.
 Configure security groups to allow necessary inbound traffic (SSH, HTTP).
+![launch instance](images/launch%20instance.png)
+
+![instance creation](images/instance%20creation.png)
+
 Create or select an existing key pair and download the private key (.pem file).
 
 ![key pair](images/key%20pair.png)
