@@ -34,3 +34,4 @@ Open your terminal (I used windows powershell for this project) and run this:
 
 ![ec2](images/ec2.jpg)
 
+![connect instance](images/connectinstance.jpg)
