@@ -36,6 +36,7 @@ Open your terminal (I used windows powershell for this project) and run this:
 
 ```ssh -i "Private-key-name.pem" ubuntu@<Public IP address>```
 
+![terminal 1](images/terminal%201.png)
 
 
 
