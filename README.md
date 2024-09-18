@@ -134,3 +134,7 @@ Add your configuration, then enable the new site and reload Apache:
 ```sudo systemctl reload apache2```
 
 ![terminal 4](images/terminal%204.png)
+
+Create an index.html file to test your website:
+
+```sudo bash -c 'echo "Hello LAMP from hostname $(hostname) with public IP $(curl -s http://169.254.169.254/latest/meta-data/public-ipv4)" > /var/www/projectlamp/index.html'```
