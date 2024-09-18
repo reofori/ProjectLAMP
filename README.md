@@ -30,7 +30,12 @@ Create or select an existing key pair and download the private key (.pem file).
 
 ![key pair](images/key%20pair.png)
 
-Connect to Your Instance:
+Edit the inbound and outbound rule
+![inbound rules](images/inbound%20rules.png)
+
+Connect to Your Instance via SSH client:
+![connect instance](images/connect%20instance.png) ![ssh client](images/ssh%20client.png)
+
 
 Open your terminal (I used windows powershell for this project) and run this:
 
@@ -40,4 +45,4 @@ Open your terminal (I used windows powershell for this project) and run this:
 
 
 
-![connect instance](images/connect%20instance.png)
+
