@@ -22,6 +22,9 @@ Choose the t2.micro instance type.
 Configure security groups to allow necessary inbound traffic (SSH, HTTP).
 Create or select an existing key pair and download the private key (.pem file).
 
+Navigate to the directory containing your downloaded key pair:
+
+```cd Downloads```
 
 Connect to Your Instance:
 
@@ -29,4 +32,4 @@ Open your terminal (I used windows powershell for this project) and run this:
 
 ```ssh -i "Private-key-name.pem" ubuntu@<Public IP address>```
 
-Navigate to the directory containing your downloaded key pair:
+
