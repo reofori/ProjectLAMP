@@ -35,4 +35,4 @@ Open your terminal (I used windows powershell for this project) and run this:
 ![ec2](images/ec2.png)
 
 
-![connect instance](images/connect_instance.png)
+![ec2](images/ec2.png)
