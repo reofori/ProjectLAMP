@@ -9,3 +9,21 @@ This project demonstrates the implementation of a LAMP (Linux, Apache, MySQL, PH
 ## STEP 0
 **Prepare the prerequisites**
 
+AWS Account Setup:
+
+Create an AWS account or log in to your existing one.
+
+
+Launch EC2 Instance:
+
+Navigate to EC2 in the AWS Management Console.
+Launch a new EC2 instance using the Ubuntu 24.04 LTS image.
+Choose the t2.micro instance type.
+Configure security groups to allow necessary inbound traffic (SSH, HTTP,).
+Create or select an existing key pair and download the private key (.pem file).
+
+
+Connect to Your Instance:
+
+Open your terminal (I used windows powershell for this project).
+Navigate to the directory containing your downloaded key pair:
