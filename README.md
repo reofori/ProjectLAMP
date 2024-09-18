@@ -116,4 +116,5 @@ At this point, The LAMP Stack is fully installed.
 Create a directory for your website
 
 ```sudo mkdir /var/www/projectlamp```
+
 ```sudo chown -R $USER:$USER /var/www/projectlamp```
