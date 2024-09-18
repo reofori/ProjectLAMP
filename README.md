@@ -6,3 +6,6 @@ This project demonstrates the implementation of a LAMP (Linux, Apache, MySQL, PH
 - Step 3 - Installing PHP
 - Step 4 - Creating a virtual Host for Your website using Apache
 - Step 5 - Enabling PHP on the website
+## STEP 0
+**Prepare the prerequisites**
+
