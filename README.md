@@ -68,6 +68,26 @@ To install Apache, we use the Terminal and run:
  Open your EC2 instance on the Console, copy the public IP address and paste to your browser
 
  ![apache page](images/apache%20page.png)
- 
+
+ This shows the  server is up and accessible online
 
 
+## STEP 2
+**Installing MySQL**
+
+Install mySQL server with the following command
+```sudo apt install mysql-server```
+
+ ![install mysql](images/install%20mysql.png)
+
+ When the installation is finished, logged to  mySQL console with 
+
+```sudo mysql```
+
+Use a Alter user command to set password for root user
+
+```ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password.1';```
+
+To secure your MySQL installation:
+
+```sudo mysql_secure_installation```
