@@ -146,16 +146,23 @@ Visit http://your-ec2-public-ip in your browser to see your webpage.
 ## STEP 5
 **Enabling PHP on the website**
 
-With the default DirectoryIndex settings on Apache, a file named index.html will always take precedence over an index.php file. We need to change this behaviour  by doing the following:
+Create a test PHP file to verify PHP is working:
 
-```sudo vim /etc/apache2/mods-enabled/dir.conf```
+```sudo nano /var/www/projectlamp/index.php```
 
-we use the above command to edit and change the /etc/apache2/mods-enabled/dir.conf file and modify the order in which the index.php file is listed within the DirectoryIndex directive
-
-
-Change the existing one to the below.
+Add the following code:
 ```
-<IfModule mod_dir.c>
-    DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
-</IfModule>
+<?php
+phpinfo();
 ```
+
+Reload Apache:
+
+```sudo systemctl reload apache2```
+
+Visit http://your-ec2-public-ip/index.php to confirm PHP is functioning. Once confirmed, remove the index.php file for security purposes:
+
+```rm /var/www/projectlamp/index.php```
+
+![php page](images/php%20page.png)
+
