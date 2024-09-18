@@ -141,7 +141,9 @@ Create an index.html file to test your website:
 
 Visit http://your-ec2-public-ip in your browser to see your webpage.
 
+
 ![apache server](images/apache%20server.png)
+
 
 ## STEP 5
 **Enabling PHP on the website**
@@ -164,5 +166,7 @@ Visit http://your-ec2-public-ip/index.php to confirm PHP is functioning. Once co
 
 ```rm /var/www/projectlamp/index.php```
 
+
 ![php page](images/php%20page.png)
 
+Congratulations! You’ve just completed your first real-life project by deploying a LAMP stack in the cloud.
