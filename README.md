@@ -32,6 +32,6 @@ Open your terminal (I used windows powershell for this project) and run this:
 
 ```ssh -i "Private-key-name.pem" ubuntu@<Public IP address>```
 
-![ec2](images/ec2.jpg)
+![ec2](images/ec2.png)
 
-![alt text](images/connect_instance.jpg)
+![alt text](images/connect_instance.png)
