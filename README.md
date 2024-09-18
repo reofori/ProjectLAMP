@@ -106,3 +106,14 @@ Install PHP and the necessary extensions. Run this cmd:
 Confirm PHP installation; Check version by running:
 
 ```php -v```
+
+At this point, The LAMP Stack is fully installed.
+
+
+## STEP 4
+**Creating a virtual host for your website using Apache**
+
+Create a directory for your website
+
+```sudo mkdir /var/www/projectlamp```
+```sudo chown -R $USER:$USER /var/www/projectlamp```
